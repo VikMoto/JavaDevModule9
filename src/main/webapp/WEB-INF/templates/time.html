@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:font-size="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="refresh" content="300">
+    <title>Title</title>
+</head>
+<body>
+<style>
+
+      .time {
+          padding: 35px;
+
+          background-color: lemonchiffon;
+      }
+
+
+</style>
+
+   <h1 font-size:150px;>
+       <div th:text="'Time : ' + ${time}" class="time"></div>
+   </h1>
+<!--    <div th:each="message: ${messages}" class="message">-->
+<!--        <div th:text="'Author: ' + ${message.author}"></div>-->
+<!--        <div class="message-content" th:text="${message.content}"></div>-->
+
+<!--        <div>-->
+<!--            <form action="/forum/delete" method="POST">-->
+<!--                <input type="hidden" th:value="${message.id}" name="id">-->
+<!--                <button type="submit">Delete</button>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <form action="/forum" method="POST">-->
+<!--      <div>-->
+<!--        <label for="author">Author</label>-->
+<!--         <input type="text" name="author" id="author">-->
+<!--      </div>-->
+
+<!--      <div>-->
+<!--          <label for="content">Content</label>-->
+<!--          <textarea name="content" id="content"  cols="30"  rows="10"></textarea>-->
+<!--      </div>-->
+
+<!--      <div>-->
+<!--        <button type="submit">Post message</button>-->
+<!--      </div>-->
+
+<!--    </form>-->
+
+</body>
+</html>
